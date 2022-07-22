@@ -1,6 +1,6 @@
-import spider from "./images/spiderman.jpg"
+import spiderman from "./images/spiderman.jpg"
 
-const Spider = (Langue) => {
+const SpiderManMiles = (Langue) => {
 
     function PageLangue(section){
         if(Langue.LanguageId === "French"){
@@ -22,19 +22,19 @@ const Spider = (Langue) => {
                 <div className="row">
                     <div className="col">
                         <div className="row1">
-                            <img src={spider} className="spider" alt="Spider-Man Miles Morales poster" />
+                            <img src={spiderman} className="spiderman" alt="Spider-Man Miles Morales poster" />
                             <h3>{PageLangue("goal1")}</h3>
                         </div>
                     </div>
                     <div className="col">
                     <div className="row1">
-                        <img src={spider} className="spider" alt="Spider-Man Miles Morales poster" />
+                        <img src={spiderman} className="spiderman" alt="Spider-Man Miles Morales poster" />
                         <h3>{PageLangue("goal2")}</h3>
                     </div>
                     </div>
                     <div className="col">
                     <div className="row1">
-                        <img src={spider} className="spider" alt="Spider-Man Miles Morales poster" />
+                        <img src={spiderman} className="spiderman" alt="Spider-Man Miles Morales poster" />
                         <h3>{PageLangue("goal3")}</h3>
                     </div>
                     </div>
@@ -47,4 +47,4 @@ const Spider = (Langue) => {
      );
 }
  
-export default Spider;
+export default SpiderManMiles;

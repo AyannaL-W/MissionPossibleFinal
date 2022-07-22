@@ -1,6 +1,6 @@
 import crash from "./images/crash.jpeg"
 
-const Crash = () => {
+const Crash = (Langue) => {
 
     function PageLangue(section){
         if(Langue.LanguageId === "French"){

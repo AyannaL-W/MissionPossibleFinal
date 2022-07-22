@@ -8,7 +8,7 @@ import Objectif from './Objectif';
 import Analyze from './Analyze';
 import Step from './Step';
 import Connexion from './Connexion';
-import Spider from './Spider';
+import SpiderManMiles from './SpidermanMiles';
 import Crash from './Crash';
 import COD from './COD';
 import { useState } from "react";
@@ -42,13 +42,13 @@ function App() {
               <Top page={PageLangue("Games")} />
               <Games LanguageId = {LanguageId}/>
             </Route>
-            <Route path="/Goals">
+            <Route exact path="/Goals">
               <Top page={PageLangue("Goals")} />
               <Objectif LanguageId={LanguageId}/>
             </Route>
             <Route path="/Goals/Spiderman">
               <Top page={PageLangue("Goals")} />
-              <Spider LanguageId={LanguageId}/>
+              <SpiderManMiles LanguageId={LanguageId}/>
             </Route>
             <Route path="/Goals/COD">
               <Top page={PageLangue("Goals")} />
