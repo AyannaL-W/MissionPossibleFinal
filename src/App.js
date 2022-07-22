@@ -33,40 +33,40 @@ function App() {
         <Navbar LanguageId = {LanguageId} setLangue={setLanguageId}/>
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/MissionPossibleFinal">
               <Top page="Mission Possible"/>
               <Home LanguageId = {LanguageId}/>
               <FAQ LanguageId = {LanguageId}/>
             </Route>
-            <Route path="/Games">
+            <Route path="/MissionPossibleFinal/Games">
               <Top page={PageLangue("Games")} />
               <Games LanguageId = {LanguageId}/>
             </Route>
-            <Route exact path="/Goals">
+            <Route exact path="/MissionPossibleFinal/Goals">
               <Top page={PageLangue("Goals")} />
               <Objectif LanguageId={LanguageId}/>
             </Route>
-            <Route path="/Goals/Spiderman">
+            <Route path="/MissionPossibleFinal/Goals/Spiderman">
               <Top page={PageLangue("Goals")} />
               <SpiderManMiles LanguageId={LanguageId}/>
             </Route>
-            <Route path="/Goals/COD">
+            <Route path="/MissionPossibleFinal/Goals/COD">
               <Top page={PageLangue("Goals")} />
               <COD LanguageId={LanguageId}/>
             </Route>
-            <Route path="/Goals/Crash">
+            <Route path="/MissionPossibleFinal/Goals/Crash">
               <Top page={PageLangue("Goals")} />
               <Crash LanguageId={LanguageId}/>
             </Route>
-            <Route path="/Analyze">
+            <Route path="/MissionPossibleFinal/Analyze">
               <Top page={PageLangue("Analyze")} />
               <Analyze LanguageId={LanguageId}/>
             </Route>
-            <Route path="/Stepbystep">
+            <Route path="/MissionPossibleFinal/Stepbystep">
               <Top page={PageLangue("Stepbystep")} />
               <Step LanguageId={LanguageId} />
             </Route>
-            <Route path="/Connexion">
+            <Route path="/MissionPossibleFinal/Connexion">
             <Top page="Connexion" />
             <Connexion LanguageId={LanguageId} />
             </Route>
