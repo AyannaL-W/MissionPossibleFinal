@@ -9,7 +9,8 @@
   align-items: center;
   max-width: 600 px;
   margin: 0 auto;
-  color:rgb(230, 227, 222);
+  color:rgb(0, 0, 0);
+  background-color: black;
   border-bottom: 1px solid antiquewhite;
 }
 
@@ -25,8 +26,144 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color:white;
 }
 
 .navbar a:hover {
   color: rgb(113, 113, 113);
+}
+
+.navbar img {
+  width: 6%;
+  height: auto;
+  padding: 6px;
+  border-radius: 40%;
+}
+
+.top img:first-child, img:last-child{
+  max-width:100%;
+  height:auto;
+  border-radius: 40%;
+  padding: 6px;
+}
+
+.top img:nth-child(2){
+  max-width:35%;
+  height:auto;
+  margin-top:2%;
+  border-radius: 40%;
+  padding: 6px;
+}
+
+.home .container1 {
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.home .row1 {
+  text-align: center;
+  margin-bottom:3%;
+}
+
+.home .col {
+  margin-left: 4px;
+  shape-margin: 4%;
+  text-align: center;
+}
+
+.home img {
+  max-width:20%;
+  height:auto;
+  border-radius: 40%;
+}
+
+.games .container {
+  text-align: center;
+  margin-bottom: 8%;
+  margin-top: 5%;
+  padding: 4%;
+}
+
+.games .col {
+  margin-left: 4px;
+  shape-margin: 4%;
+  text-align: center;
+}
+
+.games img {
+  max-width:20%;
+  height:auto;
+  border-radius: 40%;
+}
+
+.objectif .container1 {
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.objectif .row1 {
+  text-align: center;
+  margin-bottom:3%;
+}
+
+.objectif .col {
+  margin-left: 4px;
+  shape-margin: 4%;
+  text-align: center;
+}
+
+.objectif img {
+  max-width:20%;
+  height:auto;
+  border-radius: 40%;
+}
+
+.analyze .container1 {
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.analyze .row1 {
+  text-align: center;
+  margin-bottom:3%;
+}
+
+.analyze .col {
+  margin-left: 4px;
+  shape-margin: 4%;
+  text-align: center;
+}
+
+.analyze img:first-child, img:last-child {
+  max-width:20%;
+  height:auto;
+  border-radius: 40%;
+}
+
+.analyze img:nth-child(1) {
+  max-width:20%;
+  height:auto;
+  border-radius: 0%;
+}
+
+.step .container1 {
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.step .row1 {
+  text-align: center;
+  margin-bottom:3%;
+}
+
+.step .col {
+  margin-left: 4px;
+  shape-margin: 4%;
+  text-align: center;
+}
+
+.step img {
+  max-width:20%;
+  height:auto;
+  border-radius: 40%;
 }

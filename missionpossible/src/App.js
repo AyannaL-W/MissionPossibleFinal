@@ -1,18 +1,65 @@
 import Navbar from './Navbar';
-import Home from './Home'
-import logo from './images/remote.png'
+import Contact from './Contact';
+import FAQ from './FAQ';
+import Top from './Top';
+import Home from './Home';
+import Games from './Games';
+import Objectif from './Objectif';
+import Analyze from './Analyze';
+import Step from './Step';
+import Connexion from './Connexion';
+import { useState } from "react";
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
-  const title = "Welcome to the new blog";
-  const likes = 50;
+  const [LanguageId, setLanguageId] = useState('French');
+
+  function PageLangue(page){
+    if(LanguageId === "French"){
+      if(page === "Games") return "Jeux";
+      else if (page === "Goals")  return "Objectifs";
+      else if (page === "Analyze")  return "Analyses";
+      else if (page === "Stepbystep") return "Pas à pas";
+    }
+    return page;
+  }
 
   return (
-    <div className="App">
-      <Navbar/>
-      <div className="content">
-        <Home />
+    <Router>
+      <div className="App">
+        <Navbar LanguageId = {LanguageId} setLangue={setLanguageId}/>
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Top page="Mission Possible"/>
+              <Home LanguageId = {LanguageId}/>
+              <FAQ LanguageId = {LanguageId}/>
+            </Route>
+            <Route path="/Games">
+              <Top page={PageLangue("Games")} />
+              <Games LanguageId = {LanguageId}/>
+            </Route>
+            <Route path="/Goals">
+              <Top page={PageLangue("Goals")} />
+              <Objectif LanguageId={LanguageId}/>
+            </Route>
+            <Route path="/Analyze">
+              <Top page={PageLangue("Analyze")} />
+              <Analyze LanguageId={LanguageId}/>
+            </Route>
+            <Route path="/Stepbystep">
+              <Top page={PageLangue("Stepbystep")} />
+              <Step LanguageId={LanguageId} />
+            </Route>
+            <Route path="/Connexion">
+            <Top page="Connexion" />
+            <Connexion LanguageId={LanguageId} />
+            </Route>
+          </Switch>
+        </div>
+        <Contact />
       </div>
-    </div>
+    </Router>
   );
 }
 
