@@ -42,7 +42,7 @@ const Home = (Langue) => {
                     </div>
                 </div>
                 <div className="row1">
-                    <a href="/Games" className="btn btn-outline-dark">
+                    <a href="/MissionPossibleFinal/Games" className="btn btn-outline-dark">
                     {PageLangue("More")}
                     </a>
                 </div>
