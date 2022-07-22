@@ -8,6 +8,9 @@ import Objectif from './Objectif';
 import Analyze from './Analyze';
 import Step from './Step';
 import Connexion from './Connexion';
+import Spider from './Spider';
+import Crash from './Crash';
+import COD from './COD';
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -42,6 +45,18 @@ function App() {
             <Route path="/Goals">
               <Top page={PageLangue("Goals")} />
               <Objectif LanguageId={LanguageId}/>
+            </Route>
+            <Route path="/Goals/Spiderman">
+              <Top page={PageLangue("Goals")} />
+              <Spider LanguageId={LanguageId}/>
+            </Route>
+            <Route path="/Goals/COD">
+              <Top page={PageLangue("Goals")} />
+              <COD LanguageId={LanguageId}/>
+            </Route>
+            <Route path="/Goals/Crash">
+              <Top page={PageLangue("Goals")} />
+              <Crash LanguageId={LanguageId}/>
             </Route>
             <Route path="/Analyze">
               <Top page={PageLangue("Analyze")} />
