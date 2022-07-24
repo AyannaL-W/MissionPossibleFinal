@@ -2,7 +2,7 @@
   "name": "missionpossible",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ayannal-w.github.io/MissionPossibleFinal",
+  "homepage": "https://ayannal-w.github.io/MissionPossibleFinal/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
