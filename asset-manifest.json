@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MissionPossibleFinal/static/css/main.23429320.css",
-    "main.js": "/MissionPossibleFinal/static/js/main.fbc23ed9.js",
+    "main.js": "/MissionPossibleFinal/static/js/main.98bb46d4.js",
     "static/media/spiderman.jpg": "/MissionPossibleFinal/static/media/spiderman.152cb84384affb5380ae.jpg",
     "static/media/crash.jpeg": "/MissionPossibleFinal/static/media/crash.9c34eaf07015a10a512a.jpeg",
     "static/media/COD-Vanguard.jpg": "/MissionPossibleFinal/static/media/COD-Vanguard.f100e22c8400db0ba748.jpg",
@@ -9,10 +9,10 @@
     "static/media/control.png": "/MissionPossibleFinal/static/media/control.17fed29f3666f30685c3.png",
     "index.html": "/MissionPossibleFinal/index.html",
     "main.23429320.css.map": "/MissionPossibleFinal/static/css/main.23429320.css.map",
-    "main.fbc23ed9.js.map": "/MissionPossibleFinal/static/js/main.fbc23ed9.js.map"
+    "main.98bb46d4.js.map": "/MissionPossibleFinal/static/js/main.98bb46d4.js.map"
   },
   "entrypoints": [
     "static/css/main.23429320.css",
-    "static/js/main.fbc23ed9.js"
+    "static/js/main.98bb46d4.js"
   ]
 }
