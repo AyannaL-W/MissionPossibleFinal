@@ -35,7 +35,7 @@ const Navbar = (Langue, setLangue) => {
             <img src={logo} className="App-logo" alt="logo, a black and white remote from a console" />
             <h1>Mission Possible</h1>
             <div className="links">
-                <a href="/MissionPossibleFinal/">{HomeName}</a>
+                <a href="/MissionPossibleFinal">{HomeName}</a>
                 <a href="/MissionPossibleFinal/Games">{GameName}</a>
                 <a href="/MissionPossibleFinal/Goals">{GoalName}</a>
                 <a href="/MissionPossibleFinal/Analyze">{AnalyzeName}</a>
