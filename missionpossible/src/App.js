@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar LanguageId = {LanguageId} setLangue={setLanguageId}/>
         <div className="content">
