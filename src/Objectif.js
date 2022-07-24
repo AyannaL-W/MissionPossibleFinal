@@ -29,7 +29,7 @@ const Objectif = (Langue) => {
                     <div className="row1">
                         <img src={spider} className="spider" alt="Spider-Man Miles Morales poster" />
                         <h3>Spider-Man: Miles Morales</h3>
-                        <a href="/MissionPossibleFinal/Goals/Spider" className="btn btn-outline-dark">
+                        <a href="/MissionPossibleFinal/Goals/Spiderman" className="btn btn-outline-dark">
                         {PageLangue("goals")}
                         </a>
                     </div>

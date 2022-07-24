@@ -8,7 +8,7 @@ import Objectif from './Objectif';
 import Analyze from './Analyze';
 import Step from './Step';
 import Connexion from './Connexion';
-import SpiderManMiles from './SpidermanMiles';
+import SpidermanMiles from './SpidermanMiles';
 import Crash from './Crash';
 import COD from './COD';
 import { useState } from "react";
@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar LanguageId = {LanguageId} setLangue={setLanguageId}/>
         <div className="content">
@@ -48,7 +48,7 @@ function App() {
             </Route>
             <Route path="/MissionPossibleFinal/Goals/Spiderman">
               <Top page={PageLangue("Goals")} />
-              <SpiderManMiles LanguageId={LanguageId}/>
+              <SpidermanMiles LanguageId={LanguageId}/>
             </Route>
             <Route path="/MissionPossibleFinal/Goals/COD">
               <Top page={PageLangue("Goals")} />
