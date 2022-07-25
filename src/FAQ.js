@@ -1,17 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion'
-import { useState } from "react";
-import { Button } from 'bootstrap';
 
 const FAQ = (Langue) => {
-    
-    const [FAQHeader1, setFAQHeader1] = useState('+ Est-ce que ');
-    const [FAQBody1, setFAQBody1] = useState('Reponse 1');
-    const [FAQHeader2, setFAQHeader2] = useState('+ Question 2');
-    const [FAQBody2, setFAQBody2] = useState('Reponse 2');
-    const [FAQHeader3, setFAQHeader3] = useState('+ Question 3');
-    const [FAQBody3, setFAQBody3] = useState('Reponse 3');
-    const [FAQHeader4, setFAQHeader4] = useState('+ Question 4');
-    const [FAQBody4, setFAQBody4] = useState('Reponse 4');
 
     function PageLangue(section){
         if(Langue.LanguageId === "French"){
