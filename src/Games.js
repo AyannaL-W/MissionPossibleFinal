@@ -34,7 +34,7 @@ const Games = (Langue) => {
                         <h3>Call of Duty : Vanguard</h3>
                         <p>{PageLangue("DifficultyCOD")}</p>
                         <p>{PageLangue("DescCOD")}</p>
-                        <a href="/MissionPossibleFinal/Goals/Cod" className="btn btn-outline-dark">
+                        <a href="/Goals/Cod" className="btn btn-outline-dark">
                             {PageLangue("goals")}
                         </a>
                     </div>
@@ -45,7 +45,7 @@ const Games = (Langue) => {
                         <h3>Spider-Man: Miles Morales</h3>
                         <p>{PageLangue("DifficultySpider")}</p>
                         <p>{PageLangue("DescSpider")}</p>
-                        <a href="/MissionPossibleFinal/Goals/Spiderman" className="btn btn-outline-dark">
+                        <a href="/Goals/Spiderman" className="btn btn-outline-dark">
                         {PageLangue("goals")}
                         </a>
                     </div>
@@ -56,7 +56,7 @@ const Games = (Langue) => {
                         <h3>Crash Bandicoot 4</h3>
                         <p>{PageLangue("DifficultyCrash")}</p>
                         <p>{PageLangue("DescCrash")}</p>
-                        <a href="/MissionPossibleFinal/Goals/Crash" class="btn btn-outline-dark">
+                        <a href="/Goals/Crash" class="btn btn-outline-dark">
                         {PageLangue("goals")}
                         </a>
                     </div>

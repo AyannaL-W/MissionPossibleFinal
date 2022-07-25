@@ -35,12 +35,12 @@ const Navbar = (Langue, setLangue) => {
             <img src={logo} className="App-logo" alt="logo, a black and white remote from a console" />
             <h1>Mission Possible</h1>
             <div className="links">
-                <a href="/MissionPossibleFinal">{HomeName}</a>
-                <a href="/MissionPossibleFinal/Games">{GameName}</a>
-                <a href="/MissionPossibleFinal/Goals">{GoalName}</a>
-                <a href="/MissionPossibleFinal/Analyze">{AnalyzeName}</a>
-                <a href="/MissionPossibleFinal/Stepbystep">{StepName}</a>
-                <a href="/MissionPossibleFinal/Connexion">{ConnexionName}</a>
+                <a href="/">{HomeName}</a>
+                <a href="/Games">{GameName}</a>
+                <a href="/Goals">{GoalName}</a>
+                <a href="/Analyze">{AnalyzeName}</a>
+                <a href="/Stepbystep">{StepName}</a>
+                <a href="/Connexion">{ConnexionName}</a>
             </div>
             <button onClick={handleClick} style={{
                     color:"white",

@@ -38,7 +38,7 @@ const COD = (Langue) => {
                         <h3>{PageLangue("goal3")}</h3>
                     </div>
                     </div>
-                    <a href="/MissionPossibleFinal/Goals" className="btn btn-outline-dark">
+                    <a href="/Goals" className="btn btn-outline-dark">
                         {PageLangue("back")}
                     </a>
                 </div>
